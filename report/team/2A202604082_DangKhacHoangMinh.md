@@ -3,8 +3,8 @@
 ## 1. Thông tin thành viên
 
 - Họ tên: Đặng Khắc Hoàng Minh
-- MSSV: Chưa được ghi trong `TEAM.md`; cần bổ sung để đổi tên file theo quy định.
-- Email: Chưa được ghi trong `TEAM.md`.
+- MSSV: 2A202604082
+- Email: 
 - Vai trong nhóm: Người gắn nhãn 2, kiêm giữ hồ sơ.
 
 ## 2. Phần việc phụ trách
@@ -27,6 +27,9 @@
 - `report/team/bang_loi.md`: 20 ca, tỷ lệ đồng thuận 18/20 = 90%, kết luận hai ca bất đồng và bảng khắc phục năm loại.
 - `report/team/pilot_plan.yaml`: kế hoạch chia theo nhân viên, 20 cụm mỗi nhánh, 299 yêu cầu mỗi cụm và các luật dừng.
 - Kiểm tra CP4 bằng `yaml.safe_load`: đọc thành công; rà các dòng ngoài chú thích không tìm thấy dấu `?`.
+- Commit `42fec18` (`gan nhan nguoi 2`): bộ nhãn người gắn nhãn 2.
+- Commit `992fdc6` (`So Sanh nhan Minh va Dat`): đối chiếu nhãn Minh và Đạt, gồm thống nhất hai ca bất đồng.
+- Commit `81d607d` (`docs: update personal report`): cập nhật báo cáo cá nhân.
 
 ## 5. Công cụ AI đã dùng
 
