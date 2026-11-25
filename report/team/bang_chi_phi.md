@@ -87,5 +87,5 @@ Chi phí cả hệ thống bằng tổng chi phí trợ lý cộng 12.000 đ cho
 
 ## B4 · Nếu phải xem lại tất cả
 
-- Chi phí mỗi việc thành công khi xem lại 100% (`noi_dia` + `hang_nang`), so với 12.000 đ: ...
-- Kết quả này nói gì về thứ pilot cần học được? ...
+- Nếu xem lại 100% trong 5 phút mỗi ca (`noi_dia` + `hang_nang`), CPS là **11.743 đ/việc thành công**, bằng **0,98×** mốc 12.000 đ; nếu thời gian làm lại theo trung bình giả lập 15,3 phút/ca thì CPS là **12.415 đ (1,03×)** [simulated].
+- Pilot cần đo tỉ lệ xem lại và thời gian thực tế: với 9 phút làm lại/ca, thời gian xem lại phải không quá **5,12 phút/ca** để thấp hơn mốc 12.000 đ; kịch bản 15,3 phút làm lại chỉ hoà vốn khi xem lại ≤ **4,80 phút/ca** [simulated].
