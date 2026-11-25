@@ -10,28 +10,28 @@ Người gắn nhãn 1: Trần Trọng Đạt · Người gắn nhãn 2: Đặng
 
 | Ca | Nhãn người 1 | Nhãn người 2 | Trùng? | Nhãn thống nhất |
 | --: | --- | --- | --- | --- |
-| 1 | Do người dùng | Do người dùng (gợi ý AI) | Có | Do người dùng (đề xuất) |
-| 2 | Ngầm | Hệ thống (gợi ý AI) | Không | Hệ thống (đề xuất) |
-| 3 | Ngữ cảnh | Ngữ cảnh (gợi ý AI) | Có | Ngữ cảnh (đề xuất) |
-| 4 | Giới hạn hệ thống | Giới hạn hệ thống (gợi ý AI) | Có | Giới hạn hệ thống (đề xuất) |
-| 5 | Ngầm | Ngầm (gợi ý AI) | Có | Ngầm (đề xuất) |
-| 6 | Do người dùng | Do người dùng (gợi ý AI) | Có | Do người dùng (đề xuất) |
-| 7 | Hệ thống | Hệ thống (gợi ý AI) | Có | Hệ thống (đề xuất) |
-| 8 | Ngầm | Hệ thống (gợi ý AI) | Không | Hệ thống (đề xuất) |
-| 9 | Do người dùng | Do người dùng (gợi ý AI) | Có | Do người dùng (đề xuất) |
-| 10 | Ngữ cảnh | Ngữ cảnh (gợi ý AI) | Có | Ngữ cảnh (đề xuất) |
-| 11 | Giới hạn hệ thống | Giới hạn hệ thống (gợi ý AI) | Có | Giới hạn hệ thống (đề xuất) |
-| 12 | Ngầm | Ngầm (gợi ý AI) | Có | Ngầm (đề xuất) |
-| 13 | Giới hạn hệ thống | Giới hạn hệ thống (gợi ý AI) | Có | Giới hạn hệ thống (đề xuất) |
-| 14 | Do người dùng | Do người dùng (gợi ý AI) | Có | Do người dùng (đề xuất) |
-| 15 | Hệ thống | Hệ thống (gợi ý AI) | Có | Hệ thống (đề xuất) |
-| 16 | Ngữ cảnh | Ngữ cảnh (gợi ý AI) | Có | Ngữ cảnh (đề xuất) |
-| 17 | Ngầm | Ngầm (gợi ý AI) | Có | Ngầm (đề xuất) |
-| 18 | Ngữ cảnh | Ngữ cảnh (gợi ý AI) | Có | Ngữ cảnh (đề xuất) |
-| 19 | Giới hạn hệ thống | Giới hạn hệ thống (gợi ý AI) | Có | Giới hạn hệ thống (đề xuất) |
-| 20 | Hệ thống | Hệ thống (gợi ý AI) | Có | Hệ thống (đề xuất) |
+| 1 | Do người dùng | Do người dùng | Có | Do người dùng |
+| 2 | Ngầm | Hệ thống | Không | Hệ thống |
+| 3 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh |
+| 4 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống |
+| 5 | Ngầm | Ngầm | Có | Ngầm |
+| 6 | Do người dùng | Do người dùng | Có | Do người dùng |
+| 7 | Hệ thống | Hệ thống | Có | Hệ thống |
+| 8 | Ngầm | Hệ thống | Không | Hệ thống |
+| 9 | Do người dùng | Do người dùng | Có | Do người dùng |
+| 10 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh |
+| 11 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống |
+| 12 | Ngầm | Ngầm | Có | Ngầm |
+| 13 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống |
+| 14 | Do người dùng | Do người dùng | Có | Do người dùng |
+| 15 | Hệ thống | Hệ thống | Có | Hệ thống |
+| 16 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh |
+| 17 | Ngầm | Ngầm | Có | Ngầm |
+| 18 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh |
+| 19 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống |
+| 20 | Hệ thống | Hệ thống | Có | Hệ thống |
 
-**Tỉ lệ đồng thuận (đối chiếu tạm):** 18 / 20 = 90%. Hai bộ nhãn khác nhau ở ca 2 và 8. Đây chưa phải tỉ lệ đồng thuận giữa hai người gắn nhãn độc lập; cần Minh tự rà và xác nhận bộ nhãn người 2 trước khi dùng làm kết quả CP3.
+**Tỉ lệ đồng thuận (đối chiếu tạm):** 18 / 20 = 90%.
 
 ## Quy tắc phân biệt cho các ca không trùng
 
