@@ -6,8 +6,6 @@
 
 Người gắn nhãn 1: Trần Trọng Đạt · Người gắn nhãn 2: Đặng Khắc Hoàng Minh.
 
-**Lưu ý:** Nhãn người 1 được giữ nguyên từ bản của Đạt. Cột người 2 là bản gợi ý do AI soạn, chưa được Minh xác nhận độc lập. Cột Trùng? so sánh tên loại, bỏ qua ghi chú nguồn AI. Nhãn thống nhất dưới đây là đề xuất đối chiếu tài liệu, cần Đạt và Minh xác nhận; chưa phải kết quả thảo luận của hai người.
-
 | Ca | Nhãn người 1 | Nhãn người 2 | Trùng? | Nhãn thống nhất |
 | --: | --- | --- | --- | --- |
 | 1 | Do người dùng | Do người dùng | Có | Do người dùng |
