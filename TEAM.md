@@ -11,7 +11,7 @@
 
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
-|   1 | Phạm Ngọc Long |      |       | longpham2k2 | Người viết code (CP1–CP2) |
+|   1 | Phạm Ngọc Long | 2A202604111 |       | longpham2k2 | Người viết code (CP1–CP2) |
 |   2 | Nguyễn Công Huy |      |       | HyperSyst | Người kiểm số; người viết code sau giờ giải lao (CP3–CP5) |
 |   3 | Trần Trọng Đạt |      |       | dtr-uep | Người gắn nhãn 1 |
 |   4 | Đặng Khắc Hoàng Minh |      |       | dangkhacm-a11y | Người gắn nhãn 2, kiêm giữ hồ sơ |
@@ -37,7 +37,7 @@ Ví dụ: `report/team/20241234_NguyenVanAn.md`.
 
 Sao chép mục dưới đây cho từng thành viên.
 
-## PhamNgocLong-MSSV
+## PhamNgocLong-2A202604111
 
 ### Phần việc phụ trách
 
