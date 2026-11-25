@@ -4,7 +4,7 @@
 
 ## Hai bộ nhãn độc lập
 
-Người gắn nhãn 1: Trần Trọng Đạt · Người gắn nhãn 2: Đặng Khắc Hoàng Minh.
+Người gắn nhãn 1: Trần Trọng Đạt · Người gắn nhãn 2: Đặng Khắc Hoàng Minh (AI gợi ý nhưng đã kiểm tra lại và đồng ý).
 
 | Ca | Nhãn người 1 | Nhãn người 2 | Trùng? | Nhãn thống nhất |
 | --: | --- | --- | --- | --- |
@@ -29,15 +29,15 @@ Người gắn nhãn 1: Trần Trọng Đạt · Người gắn nhãn 2: Đặng
 | 19 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống |
 | 20 | Hệ thống | Hệ thống | Có | Hệ thống |
 
-**Tỉ lệ đồng thuận (đối chiếu tạm):** 18 / 20 = 90%.
+**Tỉ lệ đồng thuận ban đầu:** 18 / 20 = 90% (đạt ngưỡng 80%).
 
 ## Quy tắc phân biệt cho các ca không trùng
 
 Mỗi ca không trùng một câu. Đồng thuận dưới 80% thì ghi định nghĩa đã viết lại.
 
-- Ca 2: Đề xuất Hệ thống; lỗi xử lý đã biểu hiện trong vận hành, khác Ngầm là sai sót chưa được nhận ra cho tới khi kiểm tra.
-- Ca 8: Đề xuất Hệ thống; sai trích dẫn đã nhìn thấy được, không thuộc lỗi Ngầm.
-- Hai quy tắc trên là đề xuất dựa trên tài liệu hướng dẫn, cần hai người xác nhận; không thay đổi nhãn độc lập ban đầu.
+- Ca 2: Nhóm thống nhất nhãn cuối là **Hệ thống** vì tool dùng sai tham số và khoản hoàn thiếu đã lộ qua phản ánh/mở lại của khách; giữ nguyên nhãn độc lập ban đầu.
+- Ca 8: Nhóm thống nhất nhãn cuối là **Hệ thống** vì trợ lý viện dẫn điều khoản không tồn tại; lỗi thể hiện trong câu trả lời dù số tiền hoàn đúng.
+- Hai ca bất đồng được thống nhất là Hệ thống; nhãn độc lập ban đầu không bị sửa.
 
 ## Bảng khắc phục cho 5 ca, mỗi loại một ca
 
@@ -51,4 +51,4 @@ Cách phát hiện phải đo được (event, ngưỡng, tần suất). Ngườ
 | 11 | Giới hạn hệ thống* | Ghi `unsupported_input_type`; báo cáo hàng tuần số/tỷ lệ tin nhắn thoại không xử lý được | Báo rõ giới hạn, cung cấp chuyển giọng nói thành văn bản hoặc chuyển nhân viên kèm transcript | Chủ sản phẩm trợ lý |
 | 5 | Ngầm* | Đối soát hàng tuần giá trị hoàn với giá sau giảm; cảnh báo mọi chênh lệch khác 0 và tổng tiền vượt ngưỡng kiểm soát | Sửa công thức dùng giá thực trả sau giảm; rà soát hồi tố các giao dịch từ lần cập nhật gần nhất và hoàn phần chênh | Chủ chính sách hoàn phí |
 
-\* Phân loại và biện pháp ở bảng này là bản dự thảo dựa trên ca chính thức; cần nhóm xác nhận sau khi so hai bộ nhãn.
+\* Nhãn thống nhất cho ca 2 và 8 là Hệ thống; hai nhãn độc lập ban đầu vẫn được lưu riêng để tính đúng tỷ lệ đồng thuận.
