@@ -5,7 +5,7 @@
 - Tên nhóm: Nhom1409
 - Lớp: L3B
 - Repo nhóm: `K5-L3B-DAY13-Nhom1409-LaunchEconomics` (xem [SUBMISSION.md](SUBMISSION.md))
-- URL repo, nhánh nộp, commit chốt: https://github.com/longpham2k2/K5-L3B-DAY13-Nhom1409-LaunchEconomics · nhánh `main` · commit chốt:
+- URL repo, nhánh nộp, commit chốt: https://github.com/longpham2k2/K5-L3B-DAY13-Nhom1409-LaunchEconomics · nhánh `main` · commit chốt: `3e35a19`
 
 ## Thành viên
 
