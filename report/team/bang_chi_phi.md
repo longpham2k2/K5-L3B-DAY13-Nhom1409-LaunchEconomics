@@ -83,7 +83,8 @@ Chi phí cả hệ thống bằng tổng chi phí trợ lý cộng 12.000 đ cho
 | 2 lần | 4.093.220 đ | 234 | **6.901.220 đ** | 4.237 đ |
 | 3 lần | 4.373.585 đ | 222 | 7.037.585 đ | 4.472 đ |
 
-- Giới hạn nào rẻ nhất cho công ty? Có trùng với giới hạn cho chi phí mỗi việc thành công thấp nhất không? ...
+- Giới hạn nào rẻ nhất cho công ty? Có trùng với giới hạn cho chi phí mỗi việc thành công thấp nhất không?  
+Giời hạn 2 lần có chi phí rẻ nhất cho công ty với tổng chi phí là 6.901.220 đ. Tuy nhiên giới hạn chi phí cho mỗi việc thành công thấp nhất là của giời hạn 1 lần với chi phí trên 1 thành công là 4.111 đ, tuy nhiên có thêm 85 yêu cầu không thành công và phải để lại cho nhân viên xử lý.
 
 ## B4 · Nếu phải xem lại tất cả
 
