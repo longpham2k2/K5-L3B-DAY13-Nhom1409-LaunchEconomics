@@ -4,7 +4,7 @@ Báo cáo ngắn, tối đa 2 trang. Số liệu chi tiết nằm trong các fil
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm: 1409 
+- Tên nhóm: Nhóm 1409 
 - Lớp: L3B
 - Thành viên: xem `TEAM.md`
 
