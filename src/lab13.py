@@ -202,6 +202,47 @@ if __name__ == '__main__':
         print(f'  làm lại {nhan:22s} cps {cps_b4:>7,.0f} đ · {cps_b4 / BASELINE:.2f}x · '
               f'hoà vốn khi xem lại ≤ {phut_hoa_von:.2f} phút/ca')
 
-    # TODO CP4 · Nhiệm vụ D: cỡ mẫu.
-    #   from statsmodels.stats.proportion import proportion_effectsize
-    #   from statsmodels.stats.power import NormalIndPower
+    # ---------- Nhiệm vụ D1 · Cỡ mẫu theo ba cách chia ----------
+    from statistics import NormalDist
+    from statsmodels.stats.proportion import proportion_effectsize
+    from statsmodels.stats.power import NormalIndPower
+
+    P1, ALPHA, POWER, ICC = 0.70, 0.05, 0.80, 0.02
+
+    def co_mau(p1, p2, alpha=ALPHA, power=POWER):
+        """Cỡ mẫu mỗi nhóm khi so hai tỉ lệ (công thức z, z chính xác)."""
+        za = NormalDist().inv_cdf(1 - alpha / 2)
+        zb = NormalDist().inv_cdf(power)
+        pb = (p1 + p2) / 2
+        return math.ceil((za * math.sqrt(2 * pb * (1 - pb))
+                          + zb * math.sqrt(p1 * (1 - p1) + p2 * (1 - p2))) ** 2 / (p2 - p1) ** 2)
+
+    def he_so_thiet_ke(m, icc=ICC):
+        return 1 + (m - 1) * icc
+
+    n5 = co_mau(P1, P1 + 0.05)
+    n6 = co_mau(P1, P1 + 0.06)
+    de75 = he_so_thiet_ke(75)
+    n_nv = math.ceil(n5 * de75)
+    nv_moi_nhom = math.ceil(n_nv / 75)
+    # e) 20 cụm: 20m / (1 + (m-1)·ICC) >= n6  →  m >= n6·(1-ICC) / (20 - n6·ICC)
+    m_can = math.ceil(n6 * (1 - ICC) / (20 - n6 * ICC))
+    # Power thật nếu tác động chỉ là 5 điểm mà cỡ mẫu tính cho 6 điểm
+    es5 = abs(proportion_effectsize(P1 + 0.05, P1))
+    power_thuc = NormalIndPower().power(effect_size=es5, nobs1=n6, alpha=ALPHA)
+
+    print('\nD1 · Cỡ mẫu (baseline 0,70; alpha 0,05; power 0,8; ICC 0,02)')
+    print(f'  a) Theo yêu cầu, +5 điểm:          {n5:,} yêu cầu mỗi nhóm')
+    print(f'  b) Theo nhân viên, m = 75:         DE {de75:.2f} → {n_nv:,} mỗi nhóm = {nv_moi_nhom} người/nhóm, '
+          f'tổng {2 * nv_moi_nhom} > 40 → không đủ người')
+    print(f'  c) 20 nhân viên mỗi nhóm:          tối đa 20 / ICC = {20 / ICC:,.0f} < {n5:,} → không đạt')
+    print(f'  d) 6 depot mỗi nhóm:               tối đa 6 / ICC = {6 / ICC:,.0f}')
+    print(f'  e) +6 điểm ({n6:,}/nhóm), 20 người: m ≥ {m_can} yêu cầu mỗi người '
+          f'(DE {he_so_thiet_ke(m_can):.2f})')
+    print(f'  Power nếu tác động thật chỉ 5 điểm với n = {n6:,}: {power_thuc:.2f}')
+
+    # ---------- Nhiệm vụ D3 · Tỉ lệ mở lại hiện tại (trước khi đặt luật an toàn) ----------
+    mo_lai = reqs['mo_lai_trong_7_ngay'].astype(int)
+    mo_lai_pv = pham_vi['mo_lai_trong_7_ngay'].astype(int)
+    print(f'\nD3 · mo_lai_trong_7_ngay hiện tại: {mo_lai.mean():.2%} ({mo_lai.sum()}/{len(reqs)}); '
+          f'phạm vi noi_dia + hang_nang: {mo_lai_pv.mean():.2%} ({mo_lai_pv.sum()}/{len(pham_vi)})')
