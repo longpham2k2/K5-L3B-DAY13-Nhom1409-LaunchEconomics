@@ -54,7 +54,7 @@ Công cụ nào, dùng vào việc gì, bạn tự kiểm tra kết quả ra sao
 
 - Công cụ: ChatGPT/Codex.
 - Cách dùng: giải thích đề, giải thích sự khác nhau giữa chi phí mỗi việc thành công và chi phí cả hệ thống, hỗ trợ xử lý conflict, rà soát YAML, đề xuất sửa luật dừng và soạn báo cáo này.
-- Cách kiểm tra: đối chiếu câu trả lời với đề, `CHECKPOINTS.md`, `RUBRIC.md` và kết quả `src/lab13.py`. Nờ codex so và sửa lại kết quả pilot nếu có khác biệt với file chi_so.md.
+- Cách kiểm tra: đối chiếu câu trả lời với đề, `CHECKPOINTS.md`, `RUBRIC.md` và kết quả `src/lab13.py`. Nhờ codex so và sửa lại kết quả pilot nếu có khác biệt với file chi_so.md.
 
 ## 6. Tự đánh giá
 
