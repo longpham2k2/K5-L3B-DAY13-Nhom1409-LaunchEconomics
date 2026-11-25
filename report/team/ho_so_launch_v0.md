@@ -18,4 +18,4 @@ Nhóm: Nhóm1409 · Lớp: L3B
 
 - Trước bắt đầu 30/11/2026, Giám đốc vận hành xác nhận phân bổ ngẫu nhiên 20 nhân viên mỗi nhánh, phân tầng theo depot, quyền truy cập tách biệt và log đủ event có `trace_id`.
 - Trước chuyển sang bước tiếp theo, PM trợ lý kiểm tra cỡ mẫu/luật dừng; không mở rộng nếu an toàn chưa đạt hoặc giao dịch hoàn trùng chưa được xử lý.
-- Ngày 12/01/2027, hội đồng chỉ xem xét mở rộng nếu có đủ 20 cụm mỗi nhánh, 299 yêu cầu đủ theo dõi mỗi cụm, mức tăng ≥6 điểm phần trăm, p < 0,05 và các ngưỡng vận hành đạt; nếu thiếu điều kiện thì chưa mở rộng.
+- Ngày 12/01/2027, hội đồng chỉ xem xét mở rộng nếu có đủ 20 cụm mỗi nhánh, 299 yêu cầu đủ theo dõi mỗi cụm, mức tăng ước tính ≥5 điểm phần trăm so với đối chứng (mục tiêu đề bài; MDE 6 điểm chỉ dùng để tính cỡ mẫu), p < 0,05 và các ngưỡng vận hành đạt; nếu thiếu điều kiện thì chưa mở rộng.

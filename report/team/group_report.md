@@ -30,7 +30,7 @@ Nhóm đánh giá chi phí, rủi ro và cách đo hiệu quả của trợ lý 
 
 - Giới hạn 1 lượt chạy cho chi phí mỗi việc thành công thấp nhất nhưng để lại thêm **85 yêu cầu** cho nhân viên so với giới hạn 2 lượt. Nhóm tính thêm phần nhân viên làm thay để so chi phí toàn hệ thống [simulated]. [B3](bang_chi_phi.md#b3--giới-hạn-chạy-lại-có-thật-sự-rẻ-hơn)
 - Với 40 nhân viên, chia theo cụm không đủ mẫu cho mức chênh 5 điểm phần trăm. Nhóm chọn thiết kế phát hiện 6 điểm và ghi rõ power chỉ khoảng **64%** nếu tác động thật là 5 điểm. [Kế hoạch pilot](pilot_plan.yaml)
-- Hai hồ sơ còn lệch về ngưỡng mở rộng. Kế hoạch pilot dùng mức tăng ước tính ít nhất **5 điểm phần trăm** và dùng **6 điểm** để tính cỡ mẫu. Hồ sơ launch ghi mức tăng ít nhất **6 điểm**. Nhóm cần thống nhất ngưỡng trước khi nộp. [Kế hoạch pilot](pilot_plan.yaml) · [Hồ sơ launch v0](ho_so_launch_v0.md)
+- Hồ sơ launch và kế hoạch pilot từng lệch về ngưỡng mở rộng (6 và 5 điểm). Nhóm đã thống nhất: mở rộng khi mức tăng ước tính ít nhất **5 điểm phần trăm** theo mục tiêu đề bài, p < 0,05; **6 điểm** chỉ là MDE dùng để tính cỡ mẫu. [Kế hoạch pilot](pilot_plan.yaml) · [Hồ sơ launch v0](ho_so_launch_v0.md)
 
 ## 6. Tổng hợp đóng góp
 
