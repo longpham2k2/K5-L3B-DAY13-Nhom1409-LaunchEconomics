@@ -42,9 +42,10 @@ Mười event, mỗi event có `trace_id` để nối với trace của agent (`
 
 ## E2 · Rủi ro kinh tế
 
-Ít nhất hai dòng, số lấy từ bảng độ nhạy (`bang_chi_phi.md`).
+Tác động lấy từ A4, B1 và B4. Các ngưỡng theo dõi dưới đây là đề xuất cho pilot. [Bảng chi phí](bang_chi_phi.md)
 
 | Rủi ro | Tác động đã tính | Dấu hiệu theo dõi | Hành động | Người phụ trách |
 | --- | --- | --- | --- | --- |
-| ... | ... | ... | ... | ... |
-| ... | ... | ... | ... | ... |
+| Số ca làm lại tăng | Nếu số ca làm lại gấp đôi, chi phí tăng 51,8% lên 6.787 đ/việc thành công [simulated]. | Tỉ lệ yêu cầu có `ket_qua = lam_lai` vượt 7% số yêu cầu trong phạm vi pilot trong một tuần. | Rà soát tối đa 20 trace làm lại để tìm nguyên nhân. Nếu chi phí vượt 8.000 đ/việc thành công trong hai tuần liên tiếp, thu hẹp về `noi_dia` và giới hạn hai lần chạy theo kế hoạch pilot. | PM trợ lý hoàn phí |
+| Duy trì xem lại 100% yêu cầu có lượt chạy `ok` | Ở `noi_dia` và `hang_nang`, xem lại 5 phút/ca tốn 11.743 đ/việc thành công nếu làm lại 9 phút/ca, hoặc 12.415 đ nếu làm lại 15,3 phút/ca. Mốc so sánh là 12.000 đ [simulated]. | Cuối bước rollout 25%, hơn 50% yêu cầu có lượt chạy `ok` vẫn cần xem lại hoặc thời gian xem lại trung bình vượt 4,8 phút/ca. | Rút gọn thao tác xem lại. Chỉ thử giảm tỉ lệ xem lại theo loại yêu cầu khi các ngưỡng an toàn của pilot đã đạt. | Trưởng nhóm CSKH |
+| Khối lượng thấp làm tăng chi phí cố định mỗi việc | Khi khối lượng giảm từ 45.000 xuống 22.500 yêu cầu/tháng, phần cố định tăng từ 1.185 lên 2.370 đ/việc thành công. Tổng chi phí tăng từ 4.599 lên 5.784 đ/việc thành công [simulated]. | Số việc thành công mỗi tuần thấp hơn 50% kế hoạch trong hai tuần liên tiếp. | Giữ phạm vi hiện tại, cập nhật dự báo khối lượng và tính lại chi phí cố định mỗi việc trước khi đề xuất mở rộng. | PM trợ lý hoàn phí |

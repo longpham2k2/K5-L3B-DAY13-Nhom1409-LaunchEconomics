@@ -12,7 +12,7 @@
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
 |   1 | Phạm Ngọc Long | 2A202604111 |       | longpham2k2 | Người viết code (CP1–CP2) |
-|   2 | Nguyễn Công Huy |      |       | HyperSyst | Người kiểm số; người viết code sau giờ giải lao (CP3–CP5) |
+|   2 | Nguyễn Công Huy | 2A202604086 | conghuycr@gmail.com | HyperSyst | Người kiểm số (CP1–CP2), người viết code sau giờ giải lao (CP3–CP5) |
 |   3 | Trần Trọng Đạt |      |       | dtr-uep | Người gắn nhãn 1 |
 |   4 | Đặng Khắc Hoàng Minh |      |       | dangkhacm-a11y | Người gắn nhãn 2, kiêm giữ hồ sơ |
 
@@ -54,21 +54,28 @@ Sao chép mục dưới đây cho từng thành viên.
 
 -
 
-## NguyenCongHuy-MSSV
+## NguyenCongHuy-2A202604086
 
 ### Phần việc phụ trách
 
-- Người kiểm số CP1–CP2: tính tay một con số để đối chiếu với code, điền bảng A2, A3, A4, B1, xếp hạng ba yếu tố và câu trả lời B3, B4 trong `report/team/bang_chi_phi.md`.
-- Người viết code sau giờ giải lao: tính cỡ mẫu D1 ở `TODO CP4` trong `src/lab13.py`.
+- CP1–CP2: Kiểm số từ trace, đối chiếu phép tính với `src/lab13.py` và cập nhật bảng chi phí, phân tích độ nhạy.
+- CP3: Hỗ trợ rà soát bảng lỗi và kết quả đối chiếu hai bộ nhãn của Đạt và Minh.
+- CP4: Kiểm tra kết quả D1 trong `src/lab13.py`, hoàn thiện và kiểm tra `report/team/pilot_plan.yaml`.
 - CP5: viết các dòng rủi ro kinh tế (lấy số từ bảng độ nhạy) trong `report/team/chi_so.md`; bảo vệ hồ sơ tại Gate 2a; viết `report/team/group_report.md`.
 
 ### Đóng góp cụ thể
 
--
+- CP1: Hoàn thiện bảng A1–A4 và giải thích cách phân bổ 40 triệu đ chi phí cố định mỗi tháng. Chi phí sau khi cộng khoản cố định là 4.599 đ và 5.784 đ mỗi việc thành công ở hai mức khối lượng [simulated].
+- CP2: Điền 9 kịch bản B1, giải thích cách tính và xếp hạng yếu tố ở B2, lập bảng so sánh ba giới hạn chạy ở B3.
+- CP3: Kiểm tra tỉ lệ trùng nhãn 18/20 (90%), xác định hai ca khác nhãn (2 và 8) và rà soát bảng khắc phục đủ năm loại lỗi.
+- CP4: Điền D1–D2, đối chiếu tỉ lệ mở lại 3,97% trong dữ liệu giả lập và chọn cách chia ngẫu nhiên theo nhân viên với 20 người mỗi nhóm, tối thiểu 299 yêu cầu mỗi người. Viết bốn luật dừng, làm rõ điều kiện chuyển bước rollout và yêu cầu tắt trợ lý chậm nhất 30 phút sau khi xác minh sự cố.
 
 ### Bằng chứng
 
--
+- CP1 và CP2: Commit `7980daf` và `e35180e` trong [bảng chi phí](report/team/bang_chi_phi.md).
+- CP3: [Bảng lỗi dùng để đối chiếu](report/team/bang_loi.md).
+- CP4: Commit `5d1345a` trong [kế hoạch pilot](report/team/pilot_plan.yaml). Phép tính D1 lấy từ `src/lab13.py`, commit `49f24f5` của Long.
+- [Báo cáo cá nhân](report/team/2A202604086_NguyenCongHuy.md).
 
 ## TranTrongDat-MSSV
 
