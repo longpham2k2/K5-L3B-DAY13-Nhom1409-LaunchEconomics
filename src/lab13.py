@@ -246,3 +246,15 @@ if __name__ == '__main__':
     mo_lai_pv = pham_vi['mo_lai_trong_7_ngay'].astype(int)
     print(f'\nD3 · mo_lai_trong_7_ngay hiện tại: {mo_lai.mean():.2%} ({mo_lai.sum()}/{len(reqs)}); '
           f'phạm vi noi_dia + hang_nang: {mo_lai_pv.mean():.2%} ({mo_lai_pv.sum()}/{len(pham_vi)})')
+
+    # ---------- Nhiệm vụ E1 · Tính thử ba chỉ số trên 1.200 yêu cầu ----------
+    dong_24h = reqs['dong_trong_24h'].astype(int) == 1
+    khong_mo_lai = reqs['mo_lai_trong_7_ngay'].astype(int) == 0
+    so_chinh = int((dong_24h & khong_mo_lai).sum())
+    xem = reqs[reqs['duoc_xem_lai'].astype(int) == 1]
+    so_bo_qua = int(xem['quyet_dinh_xem_lai'].isin(['sua', 'bo']).sum())
+    so_an_toan = int((~khong_mo_lai).sum())
+    print('\nE1 · Chỉ số trong đợt chạy thử (không có nhóm đối chứng)')
+    print(f'  Chính · đóng trong 24h và không mở lại 7 ngày: {so_chinh / len(reqs):.2%} ({so_chinh}/{len(reqs)})')
+    print(f'  Dùng  · bỏ qua gợi ý (sua + bo) / được xem lại: {so_bo_qua / len(xem):.2%} ({so_bo_qua}/{len(xem)})')
+    print(f'  An toàn · mở lại trong 7 ngày:                {so_an_toan / len(reqs):.2%} ({so_an_toan}/{len(reqs)})')
